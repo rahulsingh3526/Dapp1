@@ -17,7 +17,7 @@
     </script>
     <script>
         window.eth_requestAccounts;
-        var provider = ethers.providers.Web3Provider(
+        var provider = new ethers.providers.Web3Provider(
             window.ethereum,"ropsten"
         );
 
